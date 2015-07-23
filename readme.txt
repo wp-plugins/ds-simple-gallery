@@ -20,7 +20,7 @@ This plugin allows to add Galleries, Albums, Images. This plugin creates a custo
 * Show gallery/album on post or page with short code.
 
 == Installation == 
-
+ 
 The automatic plugin installer should work for most people. Manual installation is easy and takes fewer than five minutes.
 
 1. Download the plugin, unpack it and upload the 'ds-simple-gallery' folder to your wp-content/plugins directory.
