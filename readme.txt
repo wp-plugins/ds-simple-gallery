@@ -25,7 +25,7 @@ The automatic plugin installer should work for most people. Manual installation 
 
 1. Download the plugin, unpack it and upload the 'ds-simple-gallery' folder to your wp-content/plugins directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to Google Map Location -> Settings Page to configure the basic map options.
+3. Go to Galllery Settings. There tabs are given for various settings.
 
 
 To show album on post or page use shortcode: [wrsgallery].
