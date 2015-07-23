@@ -1,0 +1,70 @@
+#wrsimplegallery_thumbs li {
+    margin: 4px;
+    padding: 0;
+    display: block;
+    display: inline-block;
+    position: relative;
+    background: #eee;
+    padding: 5px;
+    border: 1px solid #DFDFDF;
+    width: 109px;
+    height: 109px;
+}
+#wrsimplegallery_thumbs li img {
+    cursor: move;
+    width: 109px;
+    height: 109px;
+    padding: 0;
+    margin: 0;
+}
+#wrsimplegallery_thumbs li .wrsimplegallery_remove {
+    display: block;
+    text-indent: -9999px;
+    outline: 0;
+    background: url(delete_thumb.png) no-repeat 0 0;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+}
+.wrsimplegallery_placeholder {
+    border: 1px dashed #ccc !important
+}
+.ui-sortable-helper {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+#wrsimplegallery_container .clearfix:before,
+#wrsimplegallery_container .clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+#wrsimplegallery_container .clearfix:after {
+    clear: both
+}
+#wrsimplegallery_container .clearfix {
+    zoom: 1
+}
+#optionsframework .controls .of-radio-img-img {
+    margin: 10px;
+    border: 3px solid #eee;
+}
+#optionsframework .controls .of-radio-img-selected {
+    border: 3px solid #921d26;
+}
+#optionsframework .section .controls {
+    float: none;
+    width: 95%;
+}
+#optionsframework .section .explain {
+    float: none;
+    clear:both;
+}
